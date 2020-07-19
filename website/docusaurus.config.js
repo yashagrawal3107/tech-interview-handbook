@@ -20,6 +20,7 @@ module.exports = {
       },
       links: [
         {to: 'introduction', label: 'Getting Started', position: 'right'},
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/yangshun/tech-interview-handbook',
           label: 'GitHub',
@@ -37,6 +38,13 @@ module.exports = {
     algolia: {
       apiKey: 'bd359779d1c4c71ade6062e8f13f5a83',
       indexName: 'yangshun-tech-interview',
+    },
+    announcementBar: {
+      id: 'black_lives_matter',
+      content:
+        '<div style="font-weight: bold">Black Lives Matter. <a target="_blank" href="https://support.eji.org/give/153413/#!/donation/checkout">Support the Equal Justice Initiative</a></div>',
+      backgroundColor: '#000',
+      textColor: '#f5f6f7',
     },
   },
   presets: [
